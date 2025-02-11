@@ -1,0 +1,250 @@
+
+
+*{ 
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+   font-family:  400 20px / 1.2 "Nobel", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    position:sticky;
+    width: 100%;
+    background-color: rgb(0,210,198);
+    border-bottom: 1px solid white; 
+    height: 130px;  
+ 
+    
+}
+
+.container img{
+    position: relative;
+    width: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background: transparent;
+    }
+  
+.midbar {
+    width: 72%;
+    text-decoration: none;
+    float: right;
+     left: 20px;
+     margin-top: -48px;
+    
+}
+
+.products,.recipes,.stores{
+    color: white;
+    font-family: 400 20px / 1.2 "Nobel", Helvetica, Arial, sans-serif ;
+    font-size: 22px;font-family: 400 20px / 1.2 "Nobel", Helvetica, Arial, sans-serif ;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: inline;
+    justify-content: center;
+    gap: 1rem;
+    line-height: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+    
+#social-images{
+   float: right;
+    margin: -14px;
+    display:flex;
+    max-width: 29px;
+    padding-top: 0px 40px;
+    padding-right: 301px;
+    cursor: pointer;
+    text-decoration:none;
+    margin-top: -30px;
+
+}
+#b1{
+    position: relative;
+    
+}
+
+.text-banner1 h1{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+a.button-banner1 {
+    position: static;
+    top: 20px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    color: #ffff;
+    text-decoration: none;
+    
+}
+
+.text-banner1{
+    position: static;
+}
+
+.text-banner2,.text-banner3{
+    position: static;
+    width: 45%;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 137px;
+    bottom: 10px;
+    position:absolute;
+    right: 266px;
+    
+
+}
+#vi {
+    position: static;
+    bottom: 20px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 43px 17px 83px;
+    font-size: 20px;
+    font-family: 'kpra Neue';
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Kpra Neue';
+    text-transform: capitalize;
+    text-align: center;
+        
+    
+
+}
+#pr {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 43px 17px 83px;
+    font-size: 20px;
+    font-family: 'kpra Neue';
+    color: #ffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Kpra Neue';
+    justify-content: center;
+    
+}
+.banner2{
+    position: static;
+    margin-top: -22px;
+    
+
+}.banner3{
+    position: static;
+    margin-top: -4px;
+    
+}
+
+
+#re.recipes-text-data{
+    position: absolute;
+    bottom: -397px;
+    left: -23%;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'kpra Neue';
+     color: white;  
+     border-radius: 100px;
+     padding: 50px 20px; 
+     display: inline-block;
+     background-color: rgb(10,91,43,0.8);
+     font-weight: bold;
+     margin-bottom: -300px;
+}
+
+#sto.recipes-text-data{
+    position: absolute;
+    left: -23%;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'korolev';
+     color: white;  
+     border-radius: 100px;
+     padding: 50px 20px; 
+     display: inline-block;
+     background-color: rgb(10,91,43,0.8);
+     font-weight: bold;
+     bottom: -1289px;
+     justify-content: center;
+}
+
+#bake {
+    color: white;
+    text-transform: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: 6px 25px;
+
+}
+#find {
+    color: white;
+    text-transform: none;
+    margin-bottom: 20px;
+    font-family: 'korolev';
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: 6px 25px;
+
+}
+ #footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #3e3e3e;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    line-height: 2;
+     margin-right: auto;
+    padding: 15px;
+    max-width: 100%;
+    font-family: 'korolev';
+    margin-top: -4px;
+ }
+
+#footer a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    gap: 2 rem;
+    font-family:'korolev' ;
+
+}
+#footer nav li{
+    padding: 0 13px;
+}
+nav ul li{
+    display: inline;
+    color: white;
+}
+.products{
+    margin: 15px;
+
+}
+.recipes{
+    margin: 15px;
+}
+.stores{
+    margin: 15px;
+    margin-top: 10px;
+}
+#social-images{
+    text-decoration: none;
+}
